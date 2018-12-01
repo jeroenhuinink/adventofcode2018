@@ -14,7 +14,7 @@ fs.readFile("input.txt", (err, data) => {
   let i = 0;
   for (;;) {
     if (seen[frequency]) {
-      console.info('found', frequency);
+      console.info(frequency);
       return;
     }
     seen[frequency] = true;
