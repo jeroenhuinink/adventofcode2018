@@ -1,0 +1,12 @@
+{
+  "name": "adventofcode2018",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jeroen Huinink <jeroen@studio-h3o.nl>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^10.12.11",
+    "typescript": "^3.2.1"
+  }
+}
