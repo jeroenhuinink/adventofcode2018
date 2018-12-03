@@ -1,0 +1,24 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "alwaysStrict": true,
+        "pretty": true,
+        "outDir": "dist",
+        "sourceMap": true,
+        "declaration": false,
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "es6",
+        "module": "commonjs",
+        "lib": ["es2017"]
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
